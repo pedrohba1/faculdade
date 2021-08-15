@@ -1,0 +1,6 @@
+0; Manaus; 10; 43
+1; Barcelos; 10; 45
+2; Santarem; 30; 44
+3; Uberlandia; 0; 1
+4; Cuiaba; 0; 10
+5; Rondonopolis; 0; 25
