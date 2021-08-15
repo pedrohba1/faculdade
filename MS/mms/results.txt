@@ -1,0 +1,420 @@
+média de tempo da entidade no sistema: 9.78025
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.78025
+tempo ocioso:  44.0393
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.91096
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.91096
+tempo ocioso:  43.0766
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.45076
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.45076
+tempo ocioso:  49.0195
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.43013
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.43013
+tempo ocioso:  46.8886
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.73698
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.73698
+tempo ocioso:  42.7194
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.43013
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.43013
+tempo ocioso:  46.8886
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.98201
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.98201
+tempo ocioso:  44.8147
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.71247
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.71247
+tempo ocioso:  44.4183
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.83172
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.83172
+tempo ocioso:  47.9054
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.40911
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.40911
+tempo ocioso:  42.4274
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 10.4088
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 10.4088
+tempo ocioso:  43.3605
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.91794
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.91794
+tempo ocioso:  43.0114
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.83656
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.83656
+tempo ocioso:  41.696
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.74384
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.74384
+tempo ocioso:  39.8504
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.87877
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.87877
+tempo ocioso:  44.6813
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.89545
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.89545
+tempo ocioso:  44.1367
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.89545
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.89545
+tempo ocioso:  44.1367
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.89545
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.89545
+tempo ocioso:  44.1367
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.87877
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.87877
+tempo ocioso:  44.6813
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.57576
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.57576
+tempo ocioso:  41.5293
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.80654
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.80654
+tempo ocioso:  44.153
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.83607
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.83607
+tempo ocioso:  40.3705
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.83607
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.83607
+tempo ocioso:  40.3705
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 10.1199
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 10.1199
+tempo ocioso:  44.8565
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.88697
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.88697
+tempo ocioso:  44.284
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.66775
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.66775
+tempo ocioso:  39.648
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.98575
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.98575
+tempo ocioso:  44.9747
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.99751
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.99751
+tempo ocioso:  42.2176
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.95166
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.95166
+tempo ocioso:  37.1373
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.88697
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.88697
+tempo ocioso:  44.284
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.83172
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.83172
+tempo ocioso:  47.9054
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.84184
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.84184
+tempo ocioso:  44.9722
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 10.2885
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 10.2885
+tempo ocioso:  43.3268
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.27795
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.27795
+tempo ocioso:  48.1693
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.75914
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.75914
+tempo ocioso:  42.8611
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.83172
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.83172
+tempo ocioso:  47.9054
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.82914
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.82914
+tempo ocioso:  42.3766
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.82914
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.82914
+tempo ocioso:  42.3766
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 10.0293
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 10.0293
+tempo ocioso:  40.3044
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.60323
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.60323
+tempo ocioso:  42.6547
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.51594
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.51594
+tempo ocioso:  47.6423
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.98201
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.98201
+tempo ocioso:  44.8147
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.47007
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.47007
+tempo ocioso:  43.2072
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.74384
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.74384
+tempo ocioso:  39.8504
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.5117
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.5117
+tempo ocioso:  46.4716
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.77005
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.77005
+tempo ocioso:  46.701
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.83607
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.83607
+tempo ocioso:  40.3705
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 10.1922
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 10.1922
+tempo ocioso:  41.9074
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.68458
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.68458
+tempo ocioso:  42.3728
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.83172
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.83172
+tempo ocioso:  47.9054
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 10.0485
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 10.0485
+tempo ocioso:  45.1339
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.74384
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.74384
+tempo ocioso:  39.8504
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 10.0443
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 10.0443
+tempo ocioso:  40.8893
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.98201
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.98201
+tempo ocioso:  44.8147
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 10.1321
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 10.1321
+tempo ocioso:  43.9822
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.51594
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.51594
+tempo ocioso:  47.6423
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.82914
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.82914
+tempo ocioso:  42.3766
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.80555
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.80555
+tempo ocioso:  45.5859
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.5117
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.5117
+tempo ocioso:  46.4716
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
+média de tempo da entidade no sistema: 9.66218
+média de tempo da entidade na fila: 0
+média de tempo de serviço da entidade: 9.66218
+tempo ocioso:  43.5184
+taxa média de ocupação dos servidores:  0.95
+número médio de entidades na fila:  0
+------------------------------------------
