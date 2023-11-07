@@ -22,3 +22,6 @@
 [submodule "POO2"]
 	path = POO2
 	url = https://github.com/pedrohba1/POO2-trabalhos-estudo
+[submodule "AOC1"]
+	path = AOC1
+	url = https://github.com/pedrohba1/Assembly.git
