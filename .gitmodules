@@ -25,3 +25,6 @@
 [submodule "AOC1"]
 	path = AOC1
 	url = https://github.com/pedrohba1/Assembly.git
+[submodule "CCO"]
+	path = CCO
+	url = https://github.com/pedrohba1/CCO
