@@ -13,3 +13,6 @@
 [submodule "computacao-evolutiva"]
 	path = computacao-evolutiva
 	url = https://github.com/pedrohba1/AG_filmes.git
+[submodule "prolog"]
+	path = prolog
+	url = https://github.com/pedrohba1/Prolog.git
