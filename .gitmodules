@@ -1,3 +1,6 @@
 [submodule "IA/IA-trabalho-1"]
 	path = IA/IA-trabalho-1
 	url = https://github.com/pedrohba1/IA-trabalho-1
+[submodule "tcc"]
+	path = tcc
+	url = https://github.com/pedrohba1/SSCS.git
