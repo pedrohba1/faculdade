@@ -4,3 +4,6 @@
 [submodule "tcc"]
 	path = tcc
 	url = https://github.com/pedrohba1/SSCS.git
+[submodule "topicos-especiais-de-seguranca"]
+	path = topicos-especiais-de-seguranca
+	url = https://github.com/pedrohba1/smart-contracts.git
