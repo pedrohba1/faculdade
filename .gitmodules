@@ -7,3 +7,6 @@
 [submodule "topicos-especiais-de-seguranca"]
 	path = topicos-especiais-de-seguranca
 	url = https://github.com/pedrohba1/smart-contracts.git
+[submodule "IC"]
+	path = IC
+	url = https://github.com/pedrohba1/IC.git
