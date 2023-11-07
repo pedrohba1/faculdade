@@ -10,3 +10,6 @@
 [submodule "IC"]
 	path = IC
 	url = https://github.com/pedrohba1/IC.git
+[submodule "computacao-evolutiva"]
+	path = computacao-evolutiva
+	url = https://github.com/pedrohba1/AG_filmes.git
