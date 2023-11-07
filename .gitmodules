@@ -16,3 +16,9 @@
 [submodule "prolog"]
 	path = prolog
 	url = https://github.com/pedrohba1/Prolog.git
+[submodule "Sbd"]
+	path = Sbd
+	url = https://github.com/pedrohba1/GBC043
+[submodule "POO2"]
+	path = POO2
+	url = https://github.com/pedrohba1/POO2-trabalhos-estudo
