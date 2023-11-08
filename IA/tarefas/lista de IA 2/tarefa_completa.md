@@ -93,3 +93,67 @@ Y = Z, Z = b.
 
 Ou seja, na notação do exercício, `A` unifica com `x` e `z` unifica com `y` que unifica com `B`.
 
+
+Para a segunda sentença: `P(x,y), Q(A,B)`.
+
+Nesse caso, não há unificador geral, porque os predicados P e Q são diferentes.
+
+Para a terceira sentença: `Q(y,G(A,B)), Q(G(x,z),y)`
+
+Nesse caso, é possível fazer as seguintes unificações (seguindo a notação do exercício):
+
+```
+y = G(A,B),
+x = A,
+z = B
+```
+
+Para a última sentença: `P(f(x),y,g(B)), P(f(y),A,z)`
+
+A seguinte unificação é a mais geral:
+
+```
+x = y,
+y = a,
+z = g(a)
+
+```
+
+### Questão 5)
+
+CATÁLOGO DE FILMES:
+
+| Título      | Gênero     | Diretor     | Ano  | Min. |
+|-------------|------------|-------------|------|------|
+| Amnésia     | Suspense   | Nolan       | 2000 | 113  |
+| Babel       | Drama      | Iñarritu    | 2006 | 142  |
+| Capote      | Drama      | Miller      | 2005 | 98   |
+| Casablanca  | Romance    | Curtiz      | 1942 | 102  |
+| Matrix      | Ficção     | Wachowski   | 1999 | 136  |
+| Rebecca     | Suspense   | Hitchcock   | 1940 | 130  |
+| Shrek       | Aventura   | Adamson     | 2001 | 90   |
+| Sinais      | Ficção     | Shyamalan   | 2002 | 106  |
+| Spartacus   | Ação       | Kubrick     | 1960 | 184  |
+| Superman    | Aventura   | Donner      | 1978 | 143  |
+| Titanic     | Romance    | Cameron     | 1997 | 194  |
+| Tubarão     | Suspense   | Spielberg   | 1975 | 124  |
+| Volver      | Drama      | Almodóvar   | 2006 | 121  |
+
+Representação em Prolog:
+
+```pl
+movie('Amnésia', 'Suspense', 'Nolan', 2000, 113).
+movie('Babel', 'Drama', 'Iñarritu', 2006, 142).
+movie('Capote', 'Drama', 'Miller', 2005, 98).
+movie('Casablanca', 'Romance', 'Curtiz', 1942, 102).
+movie('Matrix', 'Ficção', 'Wachowski', 1999, 136).
+movie('Rebecca', 'Suspense', 'Hitchcock', 1940, 130).
+movie('Shrek', 'Aventura', 'Adamson', 2001, 90).
+movie('Sinais', 'Ficção', 'Shyamalan', 2002, 106).
+movie('Spartacus', 'Ação', 'Kubrick', 1960, 184).
+movie('Superman', 'Aventura', 'Donner', 1978, 143).
+movie('Titanic', 'Romance', 'Cameron', 1997, 194).
+movie('Tubarão', 'Suspense', 'Spielberg', 1975, 124).
+movie('Volver', 'Drama', 'Almodóvar', 2006, 121).
+```
+
