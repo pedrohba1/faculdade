@@ -15,4 +15,10 @@ funcionario(carlos, puc).
 
 aluno_de(X,Y) :- aluno(X,Z), professor(Y,Z).
 
+
+associado_a(X,Y) :- frequenta(X,Y); funcionario(X,Y).
+
+
 universitario_da(X,Y) :- frequenta(X,Y).
+
+
