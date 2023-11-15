@@ -410,8 +410,8 @@ Enumerando os conhecimentos desse cenário, à seguir:
 
 A execução progressiva fica assim:
 
-Por 1, R7;
-por 2 e 3, R18;
+- Por 1, R7;
+- por 2 e 3, R18;
 
 até aqui, o vinho poderia ser tinto e o corpo seria leve,
 resultado na seleção de vinhos da regra 13: Berjoulais ou Carmenere.
@@ -448,7 +448,7 @@ Enumerando os conhecimentos desse cenário, à seguir:
 5. preferência de corpo encorpado;
 
 
-Pela regra 8, com 1 E 4, R8;
-Por R8 e 5, R20.
+- Pela regra 8, com 1 E 4, R8;
+- Por R8 e 5, R20.
 
 Vinos sugeridos são Cabernet ou Malbec.
