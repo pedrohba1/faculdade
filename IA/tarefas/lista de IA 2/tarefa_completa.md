@@ -353,20 +353,24 @@ SE corpo recomendado é encorpado E cor recomendada é rose
 ENTÃO vinho sugerido é Rose não frizante
 
 # criada à partir de:
-# Para sabores delicados ou molhos a base de queijo, 
-# o vinho deve ser leve. 
+# Para sabores delicados ou molhos a base de queijo,
+# o vinho deve ser leve.
 Regra 18
 SE molho à base de queijo
 ENTÂO Corpo recomendado = leve
 
-Regra 19 
+Regra 19
 Se preferência do host é branco
-ENTÃO cor recomendada é branc
+ENTÃO cor recomendada é branco
 
 # uma recomendação e uma preferência podem dar no mesmo resultado
 # Essa regra é criada à partir da regra 14
 Regra 20
 SE preferência de corpo é encorpado E cor recomendada é tinto
+ENTÃO vinho sugerido é Cabernet ou Malbec
+
+Regra 21
+SE preferência de corpo é encorpado E preferência da cor é tinto
 ENTÃO vinho sugerido é Cabernet ou Malbec
 
 
@@ -410,8 +414,8 @@ Enumerando os conhecimentos desse cenário, à seguir:
 
 A execução progressiva fica assim:
 
-- Por 1, R7;
-- por 2 e 3, R18;
+- Carne vermelha -> R7 -> necessário: cor recomendada é tinto;
+-
 
 até aqui, o vinho poderia ser tinto e o corpo seria leve,
 resultado na seleção de vinhos da regra 13: Berjoulais ou Carmenere.
@@ -423,32 +427,178 @@ Se não tiver mais nenhuma regra, nada se pode assumir com a regra 4 apenas. E n
 Se criarmos uma regra, onde o host pode simplesmente usar a sua preferência, da seguinte maneira:
 
 ```
-Regra 19 
+Regra 19
 Se preferência do host é branco
 ENTÃO cor recomendada é branco
 ```
 
-Essa regra corroboraria com as péssimas escolhas de vinho do Host. O que daria em resultados ruins, apesar de chegar em alguma conclusão. 
+Essa regra corroboraria com as péssimas escolhas de vinho do Host. O que daria em resultados ruins, apesar de chegar em alguma conclusão.
 
 Acredito que essas informações na entrevista são insuficientes para concluir algo.
-
 
 Vamos ver o cenário seguinte:
 
 **Cenário 2: Refeição carne carneiro, molho apimentado, preferencia cor tinto, preferencia
 corpo encorpado**
 
-
 Enumerando os conhecimentos desse cenário, à seguir:
 
 1. Refeição de carne de carneiro;
 2. tem molho;
-3. Molho apiemntado;
+3. Molho apimentado;
 4. preferência por tinto;
 5. preferência de corpo encorpado;
 
-
-- Pela regra 8, com 1 E 4, R8;
-- Por R8 e 5, R20.
+- carne de carneiro -> R8 -> fatos: cor tinto ou rosê;
+- molho apimentado -> R1 -> fato: corpo encorpado recomendado;
+- encorpado e tinto -> R14.
+- Vinhos sugeridos: Cabernet ou Malbec.
 
 Vinos sugeridos são Cabernet ou Malbec.
+
+**b.2)** Agora com encadeamento regressivo.
+
+Apenas o cenário 2, dado que o 1 não daria certo:
+
+- R14: SE corpo encorpado;
+- corpo encorpado -> R1 -> fatos: molho apimentado E prato tem molho;
+- O cenário satisfaz as condições da R1;
+- cor recomenda é tinto -> R8 -> fatos: carne do prato principal é ave ou carneiro E preferência do host é tinto
+- O cenário satisfaz as condições da R8;
+- portanto, a R14 vale;
+- vinhos sugeridos são Malbec ou Cabernet.
+
+### Questão 2) Análise de Balanço
+
+> O principal caminho para se avaliar a "saúde de uma empresa é analisar os dados divulgados em seu último Balanço, onde é feita uma Demonstração dos Resultados da empresa durante o período compreendido pelo Balanço. São relatados números como: Patrimônio Líquido, Ativo Permanente, Faturamento, etc. Além da Demonstração de Resultados, são também divulgados Índices Fundamentalistas que servem de parâmetro para indicar a evolução da empresa. Uma das melhores formas de se fazer a análise de um balanço é comparar seus índices com índices padrões que podem ser divulgados por setor, subsetor ou área de atividade. Dependendo da natureza do índice que se está analisando, pode ser um dado favorável ou desfavorável, a empresa ter um índice superior ao índice padrão. Assim, podemos dividir os índices em 2 grupos: Crescentes, quanto maior melhor e Decrescentes, quanto menor melhor. Podemos citar como índices Crescentes:Liquidez Seca, Liquidez Geral, Liquidez Corrente, Resultado Líquido Sobre Vendas e Resultado Líquido Sobre o Ativo. Índice Decrescente: Nível de Endividamento.
+
+```
+# Regra 1
+SE índice crescente é alto
+ENTÃO empresa saudável
+SE índice decrescente é baixo
+ENTÃO empresa saudável
+
+# Regra 2
+SE índice é Liquidez Seca, Liquidez Geral, Liquidez Corrente, Resultado líquido sobre vendas, resultado líqudo sobre ativo;
+ENTÂO é um índice crescente;
+
+# Regra 3
+SE índice é nível de endividamento
+ENTÃO é um índice decrescente;
+
+```
+
+Próximo parágrafo
+
+> Inicialmente, cada índice pode ser classificado em algum dos conceitos: Péssimo,Regular, Bom e Ótimo. Para isto, eles são comparados com suas respectivas tabelas de Índices Padrões. Nestas tabelas, para cada índice são dados 3 patamares padrões: o Patamar 1, o Patamar 2 e o Patamar 3. Para se classificar cada índice verifica-se em qual faixa ele se encaixa. Por exemplo: entre o Patamar 2 e o Patamar 3 ou abaixo do Patamar 1. De acordo com a sua faixa e sua natureza, o conceito é obtido. Uma vez classificado cada um dos índices em separado é necessário que se relacione todos eles para se chegar a um conceito final do Balanço, que poderá ser: Favorável, Desfavorável ou Neutro. O conceito final do Balanço é obtido a partir da Análise da Situação Financeira e da Situação Econômica da Empresa. Se ambas forem Ótimas ou se uma for Ótima e a outra for Boa ou Regular, o Balanço será considerado Favorável. Se uma for Regular e a Outra for Regular o Balanço é considerado Neutro. Em outros casos o Balanço é considerado Desfavorável.
+
+Tabela de critérios:
+
+| Situação econômica | Situação financeira | Balanço      |
+| ------------------ | ------------------- | ------------ |
+| Ótima              | Ótima               | Favorável    |
+| Ótima              | Boa                 | Favorável    |
+| Boa                | Ótima               | Favorável    |
+| Regular            | Ótima               | Favorável    |
+| Ótima              | Regular             | Favorável    |
+| Regular            | Regular             | Neutro       |
+| Regular            | \_                  | Desfavorável |
+| \_                 | Regular             | Desfavorável |
+| \_                 | \_                  | Desfavorável |
+
+> Para se chegar à Situação Econômica, utiliza-se os índices Resultado Líquido Sobre Vendas e Resultado Líquido Sobre o Ativo. Se um deles for Ótimo e o outro for pelo menos Regular, a Situação Econômica é considerada Ótima. Se um deles for Bom e o outro Bom ou Regular, a Situação Econômica (**observação, aqui no material está escrito situação Financeira. Mas pelo contexto, achamos que se trata da situação econômica por causa do uso da palavra Bom no lugar de Alta)** é considerada Boa. Se um deles for Péssimo e o outro Péssimo ou Regular a Situação Econômica é considerada Péssima. Dentre os índices que expressam a Liquidez, o mais importante é a Liquidez Geral. Por isso basta que ela seja Ótima e/ou a Liquidez Corrente ou a Liquidez Seca pelo menos Regular que a Liquidez será considerada Alta. Se a Liquidez Geral for Boa, tanto a Liquidez Seca como a Liquidez Corrente devem ser pelo menos Boas para que a Liquidez seja considerada Alta. Se a Liquidez Geral for Boa e as outras forem Regular ou Ruim, a Liquidez será considerada Neutra. Nos Outros casos a Liquidez será considerada Baixa.
+
+Tabela de critérios para a situação econômica:
+
+| Resultado líquido sobre vendas | Resultado líquido sobre o ativo | Situação Econômica |
+| ------------------------------ | ------------------------------- | ------------------ |
+| Ótimo                          | Regular                         | Ótimo              |
+| Ótimo                          | Ótimo                           | Ótimo              |
+| Ótimo                          | Bom                             | Ótimo              |
+| Bom                            | Bom                             | Boa                |
+| Bom                            | Regular                         | Boa                |
+| Regular                        | Bom                             | Boa                |
+| Péssimo                        | Péssimo                         | Péssima            |
+| Péssimo                        | Regular                         | Péssima            |
+| Regular                        | Péssimo                         | Péssima            |
+
+Tabela de critérios para a liquidez:
+
+| Geral | Corrente  | Seca      | Liquidez |
+| ----- | --------- | --------- | -------- |
+| Ótima | > Regular | > Regular | Alta     |
+| Boa   | Regular   | Ruim      | Neutra   |
+| Boa   | Ruim      | Regular   | Neutra   |
+| \_    | \_        | \_        | Baixa    |
+
+Próximo parágrafo
+
+> Se a Liquidez for Alta e o Nível de Endividamento Ótimo, a Situação Financeira será Ótima. Se a Liquidez for Neutra e o Nível de Endividamento Ótimo ou a Liquidez for Alta e o Nível de Endividamento Bom, a Situação Financeira será Boa. Se a Liquidez for Baixa e o Nível de Endividamento Péssimo a Situação Financeira é considerada Péssima. Nos outros Casos a Situação Financeira é considerada Regular
+
+Tabela de critérios:
+
+| Liquidez | Nível de endividamento | Situação financeira |
+| -------- | ---------------------- | ------------------- |
+| Alta     | Ótimo                  | Ótima               |
+| Neutra   | Ótimo                  | Boa                 |
+| Alta     | Bom                    | Boa                 |
+| Baixa    | Péssima                | Péssima             |
+| \_       | \_                     | Regular             |
+
+
+Árvore de atributos de toda essa entrevista:
+
+![attribute tree](./attributes.png)
+
+
+
+
+### questão extra de ávore de decisão)
+
+Seja a seguinte base histórica de pacientes:
+
+| Nome  | Febre | Enjôo | Manchas  | Dores | Diagnóstico |
+| ----- | ----- | ----- | -------- | ----- | ----------- |
+| João  | sim   | sim   | pequenas | sim   | doente      |
+| Pedro | não   | não   | grandes  | não   | saudável    |
+| Maria | sim   | sim   | pequenas | não   | saudável    |
+| José  | sim   | não   | grandes  | sim   | doente      |
+| Ana   | sim   | não   | pequenas | sim   | saudável    |
+| Leila | não   | não   | grandes  | sim   | doente      |
+
+1. Gere uma árvore de decisão, baseada na medida de entropia
+   para distinguir o diagnóstico saudável/doente
+2. Utilizar a árvore para classificar 2 novos casos: (luís, não, não, pequenas, sim) , (Laura, sim, sim, grandes,sim)
+
+Primeiro, vamos fazer as medidas de entropia.
+A equação de entropia é dada por:
+
+$$
+\text{Entropia}(S) = -\sum_{i=1}^{n} p_i \log_2 p_i
+$$
+
+Para começar a montar a árvore de decisão, precisamos primeiro contabilizar a quantidade de saudável e doentes para podermos então saber o ganho de cada atributo:
+
+$$
+p(\text{doente}) = 3/6
+$$
+
+$$
+p(\text{saudável}) = 3/6
+$$
+
+$$
+\text{Entropia}(\text{Diagnóstico}) = -\sum_{i=1}^{n} p_i \log_2 p_i  \\
+
+= - 3/6  \cdot log_2 \cdot 3/6 - 3/6  \cdot log_2 \cdot 3/6
+\\
+= 1
+$$
+
+A entropia é uma medida de aleatoriedade de uma variável. No caso, como a entropia deu 1, ela é máxima, já que escolhendo
+um experimento ao acaso a chance dele ser doente ou saudável é a mesma.
+
+Só fazendo uma observação, se a entropia fosse 0 (mínima) sabemos que só temos uma possibilidade de resultado. Seria ou apenas doentes ou apenas saudáveis, no caso.
+
+Agora, precisamos checar a partição com o
