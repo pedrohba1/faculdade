@@ -596,9 +596,8 @@ $$
 = 1
 $$
 
-A entropia é uma medida de aleatoriedade de uma variável. No caso, como a entropia deu 1, ela é máxima, já que escolhendo
-um experimento ao acaso a chance dele ser doente ou saudável é a mesma.
+A entropia é uma medida de impureza ou desordem de uma variável. No caso, como a entropia deu 1, ela é máxima. Com entropia máxima, as amostras são divididas igualmente.
 
-Só fazendo uma observação, se a entropia fosse 0 (mínima) sabemos que só temos uma possibilidade de resultado. Seria ou apenas doentes ou apenas saudáveis, no caso.
+Só fazendo uma observação, se a entropia fosse 0 (mínima) sabemos que só temos uma possibilidade de resultado. Seria ou apenas doentes ou apenas saudáveis, no caso. Ou seja, as amostras são completamente homogêneas.
 
 Agora, precisamos checar a partição com o
