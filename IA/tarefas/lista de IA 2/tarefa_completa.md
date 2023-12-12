@@ -552,8 +552,6 @@ Tabela de critérios:
 ![attribute tree](./attributes.png)
 
 
-
-
 ### questão extra de ávore de decisão)
 
 Seja a seguinte base histórica de pacientes:

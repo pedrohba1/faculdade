@@ -28,3 +28,6 @@
 [submodule "CCO"]
 	path = CCO
 	url = https://github.com/pedrohba1/CCO
+[submodule "IA/trabalhos/IRIS-Knn---decision-tree"]
+	path = IA/trabalhos/IRIS-Knn---decision-tree
+	url = https://github.com/pedrohba1/IRIS-Knn---decision-tree
